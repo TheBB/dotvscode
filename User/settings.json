@@ -1,0 +1,29 @@
+{
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.fontFamily": "'Iosevka SS09 Semibold'",
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "Monokai Dark Soda",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "string",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "support.type",
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.renderWhitespace": "none"
+}

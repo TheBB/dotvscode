@@ -1,0 +1,14 @@
+[
+    {
+        "command": "vscode-neovim.compositeEscape1",
+        "key": "f",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "f"
+    },
+    {
+        "command": "vscode-neovim.compositeEscape2",
+        "key": "d",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "d"
+    },
+]

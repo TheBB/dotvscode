@@ -1,0 +1,22 @@
+/logs
+/machineid
+/storage.json
+/languagepacks.json
+/rapid_render.json
+/Backups
+/Cache
+/CachedData
+/CachedExtensions
+/CachedExtensionVSIXs
+/Code Cache
+/Cookies
+/Cookies-journal
+/Crash Reports
+/Network Persistent State
+/exthost Crash Reports
+/TransportSecurity
+/Local Storage
+/Session Storage
+/GPUCache
+/User/globalStorage
+/User/workspaceStorage
