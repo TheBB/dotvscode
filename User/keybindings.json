@@ -11,4 +11,23 @@
         "when": "neovim.mode == insert && editorTextFocus",
         "args": "d"
     },
+    
+    // Use C-f to move forward
+    {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "textInputFocus",
+    },
+    
+    // Use C-l to accept dropdown suggestions
+    {
+        "key": "ctrl+l",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "tab",
+        "command": "-acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
 ]
