@@ -85,4 +85,16 @@
         "command": "workbench.action.acceptSelectedQuickOpenItem",
         "when": "inQuickOpen"
     },
+    
+    // Use C-l to trigger suggestion
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
 ]

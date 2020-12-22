@@ -1,8 +1,8 @@
 {
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.fontFamily": "'Iosevka SS09 Semibold'",
     "editor.fontSize": 13,
-    "workbench.colorTheme": "Monokai Dark Soda",
+    "editor.renderWhitespace": "none",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -22,8 +22,44 @@
                 "settings": {
                     "fontStyle": ""
                 }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#8c8c8c", 
+                }
             }
         ]
     },
-    "editor.renderWhitespace": "none"
+
+    "workbench.colorTheme": "Monokai Dark Soda",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+
+    "pylance.insidersChannel": "daily",
+    "python.insidersChannel": "weekly",
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=vtkmodules",
+        "--extension-pkg-whitelist=vtkmodules.vtkCommonDataModel",
+        "--extension-pkg-whitelist=vtk",
+    ],
+    "python.languageServer": "Microsoft",
+    "python.analysis.typeCheckingMode": "basic",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.enableTelemetry": true,
+    "julia.executablePath": "/home/eivind/.local/bin/julia",
 }
